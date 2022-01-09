@@ -1,8 +1,6 @@
-
 body {
   background-color: #f2f2f2;
 }
-
 
 .brands {
   background: #f2f2f2;
@@ -44,7 +42,6 @@ body {
 .swiper-slide__items .swiper-slide__button:active {
   filter: drop-shadow(0 0 4px rgba(255, 62, 121, 0.5));
 }
-
 
 @media (min-width: 320px) and (max-width: 767px) {
   .brands {
@@ -129,7 +126,7 @@ body {
     row-gap: 16px;
     column-gap: 24px;
   }
-  .brands__swiper  .swiper-slide {
+  .brands__swiper .swiper-slide {
     position: static;
     width: 224px;
     height: 72px;
@@ -150,12 +147,12 @@ body {
   }
 
   .brands .button-open::before {
-    content: url("./img/readmoreicon.svg");
+    content: url("../img/readmoreicon.svg");
     margin-right: 16px;
   }
 
   .brands .button-close::before {
-    content: url("./img/readlessicon.svg");
+    content: url("../img/readlessicon.svg");
     margin-right: 16px;
   }
 
@@ -163,8 +160,9 @@ body {
   .brands .button--hidden {
     display: none;
   }
-
- 
+  .brands__swiper .swiper-pagination {
+    display: none;
+  }
 }
 
 @media (min-width: 1120px) {
@@ -197,7 +195,7 @@ body {
     row-gap: 16px;
     column-gap: 32px;
   }
-  .brands__swiper  .swiper-slide {
+  .brands__swiper .swiper-slide {
     position: static;
     width: 240px;
     height: 72px;
@@ -219,19 +217,29 @@ body {
   }
 
   .brands .button-open::before {
-    content: url("./img/readmoreicon.svg");
+    content: url("../img/readmoreicon.svg");
     margin-right: 16px;
   }
 
   .brands .button-close::before {
-    content: url("./img/readlessicon.svg");
+    content: url("../img/readlessicon.svg");
     margin-right: 16px;
   }
 
-  .brands__swiper  .swiper-slide--hidden--desktop,
+  .brands__swiper .swiper-slide--hidden--desktop,
   .brands .button--hidden {
     display: none;
   }
-
- 
+  .brands__swiper .swiper-pagination {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .brands {
+    min-width: 1120px;
+    margin: 0;
+  }
+  .brands__swiper .swiper-pagination {
+    display: none;
+  }
 }

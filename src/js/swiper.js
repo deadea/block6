@@ -11,9 +11,8 @@
     let repairsSwiper;
     let pricesSwiper;
   
-    //////////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////////
+    //////////////////////////////
+    
   
     const breakpointChecker = function() {
   
@@ -36,9 +35,8 @@
   
     };
     
-    //////////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////////
+    ////////////////////////////////
+    
   
     const enableSwiper = function() {
   
@@ -56,25 +54,25 @@
               // when window width is >= 320px
               320: {
                 slidesPerView: 1.3,
-                //spaceBetween: 16
+                
               },
               // when window width is >= 480px
               420: {
                 slidesPerView: 1.6,
-                //spaceBetween: 16
+                
               },
               // when window width is >= 640px
               520: {
                 slidesPerView: 2,
-                //spaceBetween: 16
+                
               },
               620: {
                 slidesPerView: 2.3,
-               // spaceBetween: 16
+               
               },
               720: {
                 slidesPerView: 2.4,
-               // spaceBetween: 16
+               
               }
             },
         
@@ -109,25 +107,25 @@
               // when window width is >= 320px
               320: {
                 slidesPerView: 1.3,
-                //spaceBetween: 16
+                
               },
               // when window width is >= 480px
               420: {
                 slidesPerView: 1.6,
-                //spaceBetween: 16
+                
               },
               // when window width is >= 640px
               520: {
                 slidesPerView: 2,
-                //spaceBetween: 16
+                
               },
               620: {
                 slidesPerView: 2.3,
-               // spaceBetween: 16
+               
               },
               720: {
                 slidesPerView: 2.4,
-               // spaceBetween: 16
+               
               }
             },
         
@@ -163,25 +161,25 @@
               // when window width is >= 320px
               320: {
                 slidesPerView: 1.2,
-                //spaceBetween: 16
+                
               },
               // when window width is >= 480px
               420: {
                 slidesPerView: 1.3,
-                //spaceBetween: 16
+                
               },
               // when window width is >= 640px
               520: {
                 slidesPerView: 1.4,
-                //spaceBetween: 16
+                
               },
               620: {
                 slidesPerView: 2,
-               // spaceBetween: 16
+               
               },
               720: {
                 slidesPerView: 2.4,
-               // spaceBetween: 16
+               
               }
             },
         
@@ -206,9 +204,7 @@
 
     };
   
-    //////////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////////
+    /////////////////////////////
   
     // keep an eye on viewport size changes
     //breakpoint.addEventListener(breakpointChecker);

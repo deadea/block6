@@ -71,3 +71,9 @@
     margin-bottom: 50px;
   }
 }
+@media (min-width: 1440px) {
+  .offer {
+    min-width: 1120px;
+    margin: 0;
+  }
+}
