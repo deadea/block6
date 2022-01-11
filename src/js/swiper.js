@@ -22,6 +22,7 @@
         // clean up old instances and inline styles when available
         if ( brandsSwiper !== undefined ) brandsSwiper.destroy( true, true );
         if ( repairsSwiper !== undefined ) repairsSwiper.destroy( true, true );
+        if ( pricesSwiper !== undefined ) pricesSwiper.destroy( true, true );
         // or/and do nothing
         return;
   
