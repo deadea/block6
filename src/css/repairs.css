@@ -17,7 +17,7 @@
   text-align: left;
 }
 
-.repairs__swiper .swiper-slide__items {
+.repairs__slide-items {
   border: 1px solid #eaeaea;
   border-radius: 6px;
   height: 160px;
@@ -32,18 +32,20 @@
   align-content: space-between;
 }
 
-.repairs__swiper .swiper-slide__items > .swiper-slide__button {
+.repairs__link {
   align-self: flex-end;
+  width: 40px;
+  height: 40px;
 }
 
-.repairs__swiper .swiper-slide__items span {
+.repairs__slide-items span {
   font-weight: 500;
   font-size: 18px;
 }
-.swiper-slide__items .swiper-slide__button:hover {
+.repairs__link:hover {
   transform: scale(1.1);
 }
-.swiper-slide__items .swiper-slide__button:active {
+.repairs__link:active {
   filter: drop-shadow(0 0 4px rgba(255, 62, 121, 0.5));
 }
 
@@ -58,11 +60,11 @@
     min-width: 320px;
   }
 
-  .repairs__swiper::after {
+  .repairs::after {
     content: "";
     position: absolute;
-    top: 324px;
     right: 0;
+    margin-top: -175px;
     width: 24px;
     height: 166px;
     z-index: 10;
@@ -99,11 +101,6 @@
   }
 }
 
-@media (min-width: 348px) and (max-width: 767px) {
-  .repairs__swiper::after {
-    top: 300px;
-  }
-}
 
 @media (min-width: 768px) and (max-width: 1119px) {
   .repairs__head {
@@ -114,7 +111,7 @@
     width: 100%;
   }
 
-  .repairs__swiper .swiper-wrapper {
+  .repairs__wrapper {
     margin: 0 auto;
     position: static;
     padding: 24px;
@@ -130,12 +127,12 @@
     row-gap: 16px;
     column-gap: 24px;
   }
-  .repairs__swiper .swiper-slide {
+  .repairs__slide {
     position: static;
     width: 224px;
     height: 160px;
   }
-  .repairs__swiper .swiper-slide__items {
+  .repairs__slide-items {
     width: 224px;
     height: 160px;
   }
@@ -183,7 +180,7 @@
     width: 100%;
   }
 
-  .repairs__swiper .swiper-wrapper {
+  .repairs__wrapper {
     margin: 0 auto;
     position: static;
     padding: 24px 32px;
@@ -199,12 +196,12 @@
     row-gap: 16px;
     column-gap: 32px;
   }
-  .repairs__swiper .swiper-slide {
+  .repairs__slide {
     position: static;
     width: 240px;
     height: 160px;
   }
-  .repairs__swiper .swiper-slide__items {
+  .repairs__slide-items {
     width: 240px;
     height: 160px;
   }

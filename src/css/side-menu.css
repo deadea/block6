@@ -46,12 +46,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.menu-header__button:not(.menu-header__button:nth-of-type(2)) {
+.menu-header__button {
   width: 40px;
   height: 40px;
 }
 
-.menu-header__button:nth-of-type(2) {
+.menu-header__link {
   align-self: center;
   margin-left: 16px;
 }
@@ -234,7 +234,7 @@
   .menu-header__button:first-child {
     display: none;
   }
-  .menu-header__button:nth-of-type(2) {
+  .menu-header__link {
     margin: 0;
     width: 96.55px;
     height: 50.81px;
