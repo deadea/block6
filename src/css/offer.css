@@ -36,10 +36,7 @@
   vertical-align: middle;
 }
 
-.offer__link:hover,
-.offer__link:active {
-  opacity: 0.33;
-}
+
 
 @media (min-width: 320px) and (max-width: 767px) {
   .offer {
