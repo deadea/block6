@@ -1,4 +1,4 @@
-main {
+.main-section {
   min-width: 320px;
 }
 
@@ -226,7 +226,7 @@ main {
 }
 
 @media (min-width: 1120px) {
-  main {
+  .main-section {
     min-width: 1120px;
     margin: 0 auto;
   }
@@ -329,7 +329,7 @@ main {
 }
 
 @media (min-width: 1440px) {
-  main {
+  .main-section {
     max-width: 1120px;
     margin: 0;
   }
